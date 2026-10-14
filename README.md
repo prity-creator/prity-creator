@@ -1,27 +1,27 @@
 # Hi, I’m Prity 👋
 
-I work in B2B sales and marketing and am exploring GTM engineering: turning practical revenue workflows into useful tools.
+I work in B2B sales and marketing, building GTM workflows from the problems I see in prospect conversations, campaign operations and follow-ups.
 
-## What I’m building
+## Featured project: GTM Context Engine
 
-**[GTM Lab](https://github.com/prity-creator/prity-gtm-lab)** — a new open-source collection of five workflow experiments, built with AI assistance:
+[Explore the repository](https://github.com/prity-creator/gtm-context-engine) · [Try the interactive demo](https://prity-creator.github.io/gtm-context-engine/)
 
-- **LinkedIn Reply Desk:** inspect reply intent, review evidence and prepare a response.
-- **Campaign Pulse:** compare funnel counts and identify stages to investigate.
-- **Call → Follow-up:** turn confirmed notes into a follow-up draft.
-- **Outreach Check:** catch placeholders, competing asks and unsupported promises.
-- **Campaign Link Kit:** create consistently tagged campaign URLs.
+An account review workflow that brings LinkedIn, email, CRM and calendar evidence together. It surfaces overdue promises, conflicting identities, stale source data and gaps in the buying committee—then exports a sourced next-step brief for review.
 
-The offline demo works without an API key. An optional Google ADK extension is included for further setup and testing.
+- Working local dashboard and deterministic decision engine.
+- Optional API adapters for HubSpot, Smartlead, Apollo, Google Sheets, Google Calendar, Jev, Gemini and Claude.
+- Configurable model routing, request limits, caching and illustrative cost estimates.
+- Downloadable JSON datasets, schemas, workflow manifests, strategy policies and reusable `SKILL.md` files.
+- Setup documentation and automated tests. Live account integrations still require credentials and validation.
+
+Built with AI assistance. The demo uses fictional data; this is an open-source prototype, with no claim of measured customer ROI or production deployment.
+
+## Earlier experiments
+
+[Prity GTM Lab](https://github.com/prity-creator/prity-gtm-lab) contains early workflow prototypes: LinkedIn Reply Desk, Campaign Pulse, Call → Follow-up, Outreach Check and Campaign Link Kit. These experiments helped shape the more focused GTM Context Engine.
 
 ## What I bring
 
-Hands-on experience with prospect conversations, appointment setting, campaign operations and follow-ups. I’m learning to make that knowledge reproducible through code, documentation and tests.
+Hands-on experience with prospect conversations, appointment setting, campaign operations and follow-ups. My focus is making that operational knowledge reusable through code, documented decisions and tests.
 
-## What I’m learning next
-
-Google ADK, evaluation, GitHub collaboration and small open-source contributions. I welcome feedback and fictional edge cases that help improve these tools.
-
-GitHub is new to my regular workflow; this profile documents what I’m building from here.
-
-
+I welcome feedback on real workflow problems, fictional edge cases and useful integration improvements.
